@@ -12,8 +12,6 @@ const EditMovieForm = ({movieSelect}) => {
             var newMovie = movies[movieSelect]
             (newMovie === editMovie)
             editMovie(newMovie)
-            //create(newMovie)
-            //navigate(`/addMovie/success`);
         } 
     
     return (
